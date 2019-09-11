@@ -1,0 +1,53 @@
+body {
+    font-size: 12pt;
+    font-family: Georgia, "Times New Roman", serif;
+    color : black;
+    background : white;
+    width: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+.inserimento {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+#immagine {
+    height: 100pt;
+}
+
+#immagineMiniatura {
+    height: 1pt;
+    margin-top: 60pt;
+}
+
+#input1 {
+    display: none;
+}
+
+#input2 {
+    display: none;
+}
+
+#input3 {
+    display: none;
+}
+
+#input4 {
+    display: none;
+}
+
+#input5 {
+    display: none;
+}
+
+#input6 {
+    display: none;
+}
+

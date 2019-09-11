@@ -1,0 +1,502 @@
+body {
+    width: 100%;
+    font-family: Arial, "Open Sans", Verdana, sans-serif;
+    margin: 0;
+   
+}
+
+.presentazione {
+    height: 100%;
+}
+
+.presentazione p{
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.conferma {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.messaggiErrore {
+    text-align: center;
+    border-top: 0.4vh solid red;
+    width: 30%;
+    margin-left: 35%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+}
+
+.registrazione {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.messaggio {
+    color: red;
+}
+
+.myheader {
+    text-align: center;
+    color: black;
+    padding: 0.5%;
+    background-color: #CECECE;
+}
+
+.myheader h1 {
+    font-size: 2rem;
+}
+
+.myheader p {
+    font-size: 1.3rem;
+}
+
+.navbar {
+    background-color: burlywood;
+    overflow: auto;
+    width: 100%;
+    
+}
+
+.navbar a {
+    color: black;
+    padding: 1% 1%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #333;
+    color: white;
+}
+
+#utente {
+    float: right;
+    margin-right: 1%;
+}
+
+#utente:hover{
+    background-color: transparent;
+    color: black;
+}
+
+#log:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.contenitore {
+    border: solid;
+    text-align: center;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 1%;
+    margin: 3% 2% 3% 2%;
+    border: none;
+    background: #DEDEDE;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: ghostwhite;
+}
+
+#immagineMiniatura {
+    float: right;
+    width: 15%;
+    height: 30%;
+    margin-right: 15%;
+    min-height: 200px;
+}
+
+#immagine {
+    width: 80%;
+    height: 55%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    min-height: 200px;
+}
+
+.password1 {
+    display: inline;
+}
+
+.password2 {
+    display: inline;
+}
+
+.pulsanti {
+    text-align: center;
+}
+
+.effettuaLogout {
+    margin-top: 5%;
+}
+
+.btn {
+    border: none;
+    background-color: burlywood;
+    padding: 1%;
+    margin-top: 3%;
+}
+
+.btn1 {
+    border: none;
+    background-color: burlywood;
+    padding: 1%;
+    margin-top: 3%;
+}
+
+.btn:hover {
+  background-color: #333;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: #333;
+    color: white;
+}
+
+#input1{
+    float: none;
+    min-width: 24rem;
+}
+    
+#input2{
+    float: none;
+    min-width: 24rem;
+}
+
+#input3 {
+    margin-left: 3%;
+}
+
+#input4 {
+    width: 100%;
+    padding: 4%;
+}
+
+#input5 {
+    float: none;
+    min-width: 24rem;
+}
+
+.infoBox {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.infoContatti table{
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.infoContatti td {
+    border-top: 0.4vh solid #eeeeee;
+    display: block;
+    text-align: left;
+    padding: 1.5%;
+}
+
+.infoContatti th {
+    text-align: left;
+}
+
+.infoOrari table{
+    width: 47%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+}
+
+.infoOrari td {
+    border-top: 0.4vh solid #eeeeee;
+    text-align: left;
+    padding: 1.5%;
+}
+
+.infoOrari th {
+    text-align: left;
+}
+
+.infoPrestiti {
+    text-align: center;
+}
+
+.infoPrestiti h2 {
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.prestito {
+    text-align: center;
+}
+
+.prestito p {
+    display: block;
+}
+
+.prestito table{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.prestito td {
+    border-top: 0.4vh solid #eeeeee;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 28%;
+    
+}
+
+.prestito th {
+    width: 28%;
+}
+
+.inserimento {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.inserimento h3 {
+    display: inline;
+}
+
+.erroriPrenotazioni {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.richiestaLogin {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.richiestaLogin p {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.libroRestituito {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #CECECE;
+}
+
+.paginaSito {
+    float: left;
+    margin: 0.5%;
+}
+
+.proprietario {
+    float: right;
+    margin: 0.5%;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+    #immagine {
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        min-height: 200px;
+    }
+    
+    .presentazione {
+        height: 50%;
+    }
+    
+    #immagineMiniatura {
+        height: 50%;
+        width: 20%;
+        margin-right: 5%;
+        margin-top: 4%;
+        min-height: 200px;
+    }
+    
+    .infoBox {
+        margin-top: 20%;
+    }
+    
+    .navbar a {
+        height: 3vh;
+    }
+    
+    .infoPrestiti {
+        margin-top: 10%;
+    }
+    
+    .infoContatti table {
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .infoOrari table {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    
+    .presentazione {
+        height: 70%;
+    }
+    
+    .infoContatti table {
+        width: 100%;
+        margin-top: 0%;
+    }
+    
+    .infoOrari table {
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .presentazione p{
+        width: 100%;
+        margin-left: 2%;
+    }
+    
+    #immagineMiniatura {
+        display: none;
+    }
+    
+    #immagine {
+        width: 100%;
+        height: 50%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+        padding: 2% 1%;
+    }
+    
+    #utente {
+        float: none;
+        display: block;
+        text-align: right;
+    }
+    
+    .password1 {
+        display: block;
+    }
+
+    .password2 {
+        display: block;
+    }
+    
+    .prestito table {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #input1 {
+        min-width: 15rem;
+    }
+    
+    #input2 {
+        min-width: 15rem;
+    }
+    
+    #input5 {
+        float: none;
+        margin-right: 0;
+        min-width: 15rem;
+    }
+    
+    input[type=text], input[type=password] {
+        width: 35%;
+        display: block;
+        margin-left: 32.5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .inserimento {
+        margin-top: 10%;
+    }
+    
+    .infoPrestiti h2 {
+        margin-left: 2.5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .richiestaLogin p {
+        font-size: 1.3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .messaggiErrore {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    
+    .conferma h1 {
+        font-size: 1.5rem;
+    }
+    
+    .conferma h2 {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .contenitore {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .btn {
+        margin-left: 3%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .risultatoEmail {
+        margin-top: 1%;
+    }
+    
+    .risultatoPassword {
+        margin-top: 1%;
+    }
+    
+    .btn {
+         margin-right: 2.5%;
+    }
+}
+
